@@ -1,0 +1,21 @@
+.btn {
+    font-size: 1.5rem;
+    padding: 4px 10px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    outline: 1px solid var(--text-primary);
+    color: var(--text-primary);
+}
+
+.btn:hover,
+.btn:active {
+    cursor: pointer;
+    outline-width: 2px;
+}
+
+.selected {
+    outline-width: 2px;
+    cursor: pointer;
+    background-color: var(--highligth);
+}

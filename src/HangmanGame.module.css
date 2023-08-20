@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    
+    color: var(--text-primary);
+  }
+
+.categoryBtn {
+    font-size: 1.5rem; 
+    background: none; 
+    color: var(--text-primary); 
+    border: none; 
+    border-radius: 50%; 
+    cursor: pointer
+}

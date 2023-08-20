@@ -1,0 +1,21 @@
+
+:root {
+  padding: 0;
+  margin: 0;
+  
+  --background: ivory;
+  --text-primary: black;
+  --highligth: #E8D5C4;
+  --accent1: #3a97b98c;
+  --accent2: rgba(178, 34, 34, 0.45);
+}
+[data-theme='dark'] {
+  --background: #0B2447;
+  --text-primary: #F9E2AF;
+  --highligth: #3a97b9d7;
+  --accent1: rgba(124, 104, 238, 0.76);
+  --accent2: rgba(178, 34, 34, 0.733);
+}
+
+
+
