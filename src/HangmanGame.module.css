@@ -7,6 +7,7 @@
     color: var(--text-primary);
   }
 
+
 .categoryBtn {
     font-size: 1.5rem; 
     background: none; 
@@ -15,3 +16,4 @@
     border-radius: 50%; 
     cursor: pointer
 }
+

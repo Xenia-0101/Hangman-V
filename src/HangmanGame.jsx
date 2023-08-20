@@ -8,7 +8,7 @@ import { fetchCategories, fetchWords } from "./utils/fetchFunctions";
 import useKeyboard from "./hooks/useKeyboard";
 import ThemeContextComponent from "./hooks/ThemeContextComponent";
 import Styles from "./HangmanGame.module.css"
-import refreshIcon from "./assets/refresh.svg"
+import { ReactComponent as RefreshIcon } from "./assets/refresh.svg"
 
 export default function HangmanGame() {
     const [categories, setCategories] = useState({ categories: {}, loading: true, error: null })
@@ -91,9 +91,9 @@ export default function HangmanGame() {
 
                         <button
                             title="Refresh"
-                            className={Styles.categoryBtn}
+                            className={`${Styles.categoryBtn} ${Styles.icon}`}
                             onClick={() => startNewGame()} > 
-                            refresh
+                            <RefreshIcon />
                         </button>
 
                         

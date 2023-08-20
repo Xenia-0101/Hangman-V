@@ -1,0 +1,31 @@
+.hangmanWrapper {
+    position: relative;
+}
+
+.boxesWrapper {
+    position: relative;
+    visibility: collapse;    
+
+}
+
+
+.box {
+    position: relative;
+    display: inline-block;
+    margin: 0 4px;
+    height: 40px;
+    aspect-ratio: 1/1;
+    border: 2px solid var(--text-primary);
+
+
+}
+
+@media only screen and (max-width: 450px) {
+    .hangmanWrapper {
+      visibility: collapse;
+    }
+
+    .boxesWrapper {
+        visibility: visible;
+    }
+  }
